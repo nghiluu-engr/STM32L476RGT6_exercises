@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+"button\startup_stm32l476xx.o"
+"button\main.o"
+"button\stm32l4xx_it.o"
+"button\stm32l4xx_hal_msp.o"
+"button\stm32l4xx_hal.o"
+"button\stm32l4xx_hal_rcc.o"
+"button\stm32l4xx_hal_rcc_ex.o"
+"button\stm32l4xx_hal_flash.o"
+"button\stm32l4xx_hal_flash_ex.o"
+"button\stm32l4xx_hal_flash_ramfunc.o"
+"button\stm32l4xx_hal_gpio.o"
+"button\stm32l4xx_hal_i2c.o"
+"button\stm32l4xx_hal_i2c_ex.o"
+"button\stm32l4xx_hal_dma.o"
+"button\stm32l4xx_hal_dma_ex.o"
+"button\stm32l4xx_hal_pwr.o"
+"button\stm32l4xx_hal_pwr_ex.o"
+"button\stm32l4xx_hal_cortex.o"
+"button\stm32l4xx_hal_exti.o"
+"button\system_stm32l4xx.o"
+"button\button.o"
+"button\blink_led_rgb.o"
+--strict --scatter "BUTTON\BUTTON.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BUTTON.map" -o BUTTON\BUTTON.axf
