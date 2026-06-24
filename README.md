@@ -1,6 +1,6 @@
 # STM32L476RGT6_exercises
 
-## 📌 Overview
+## Overview
 This repository stores my exercises since I first started learning about microcontrollers until now. 
 All projects and exercises are written in the **C language** and developed using 2 software tools:
 * **STM32CubeMX**: For setting up pins and peripheral hardware.
@@ -10,7 +10,7 @@ All exercises are practiced on a complete development board that includes the **
 
 ---
 
-## 🛠️ Hardware
+## Hardware
 * **Microcontroller:** STM32L476RGT6 (ARM Cortex-M4 core).
 * **Programmer:** ST-Link V2.
 * **Onboard Peripherals:** * 1x ICM-20948 (IMU sensor).
@@ -20,7 +20,7 @@ All exercises are practiced on a complete development board that includes the **
 
 ---
 
-## 🚀 BLINK_LED_RGB
+## BLINK_LED_RGB
 
 ### 1. Main Code 
 All the main code files are placed inside the `SourceCode` folder:
@@ -31,7 +31,7 @@ All the main code files are placed inside the `SourceCode` folder:
 
 ---
 
-## 🚀 BUTTON
+## BUTTON
 
 ### 1. Main Code 
 All the main code files are placed inside the `SourceCode` folder:
@@ -42,7 +42,7 @@ All the main code files are placed inside the `SourceCode` folder:
 
 ---
 
-## 🚀 External_Interrupt
+## External_Interrupt
 
 ### 1. Main Code 
 * All the main application logic and interrupt configurations are placed directly inside the `main.c` file.
@@ -52,7 +52,7 @@ All the main code files are placed inside the `SourceCode` folder:
 
 ---
 
-## 🚀 BUZZER
+## BUZZER
 
 ### 1. Main Code 
 All the main code files are placed inside the `SourceCode` folder:
@@ -64,7 +64,7 @@ All the main code files are placed inside the `SourceCode` folder:
 
 ---
 
-## 🚀 ADC
+## ADC
 
 ### 1. Main Code 
 * All the main ADC reading and processing operations are placed inside the `main.c` file.
@@ -74,7 +74,7 @@ All the main code files are placed inside the `SourceCode` folder:
 
 ---
 
-## 🚀 TIMER, PWM
+## TIMER, PWM
 
 ### 1. Main Code
 * All the main configurations for the timer counter and PWM channels are placed inside the `main.c` file.
