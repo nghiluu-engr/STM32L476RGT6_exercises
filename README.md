@@ -81,3 +81,15 @@ All the main code files are placed inside the `SourceCode` folder:
 
 ### 2. Requirements
 * Use a Timer in PWM mode to change the duty cycle smoothly, making the LED gradually brighten up.
+
+---
+
+## IMU
+
+### 1. Main Code
+All the main code files are placed inside the `SourceCode` folder:
+* **ICM-20948 Library (`icm_20948.h` / `icm_20948.c`):** Manages and controls the ICM-20948 IMU sensor.
+
+### 2. Requirements
+* Use **SPI** interface for MCU to communicate with ICM-20948 to read accelerometer and gyroscope values.
+* Use **I2C** interface for ICM-20948 to communicate with AK09916 to read magnetometer values.
