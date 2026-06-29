@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+"imu\startup_stm32l476xx.o"
+"imu\main.o"
+"imu\stm32l4xx_it.o"
+"imu\stm32l4xx_hal_msp.o"
+"imu\stm32l4xx_hal_spi.o"
+"imu\stm32l4xx_hal_spi_ex.o"
+"imu\stm32l4xx_hal.o"
+"imu\stm32l4xx_hal_rcc.o"
+"imu\stm32l4xx_hal_rcc_ex.o"
+"imu\stm32l4xx_hal_flash.o"
+"imu\stm32l4xx_hal_flash_ex.o"
+"imu\stm32l4xx_hal_flash_ramfunc.o"
+"imu\stm32l4xx_hal_gpio.o"
+"imu\stm32l4xx_hal_i2c.o"
+"imu\stm32l4xx_hal_i2c_ex.o"
+"imu\stm32l4xx_hal_dma.o"
+"imu\stm32l4xx_hal_dma_ex.o"
+"imu\stm32l4xx_hal_pwr.o"
+"imu\stm32l4xx_hal_pwr_ex.o"
+"imu\stm32l4xx_hal_cortex.o"
+"imu\stm32l4xx_hal_exti.o"
+"imu\system_stm32l4xx.o"
+"imu\icm_20948.o"
+--strict --scatter "IMU\IMU.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "IMU.map" -o IMU\IMU.axf
